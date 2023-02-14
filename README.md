@@ -1,2 +1,2 @@
 # Security-Lock
-password generator
+password generator to generate random passwords for users.

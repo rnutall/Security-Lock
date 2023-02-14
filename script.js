@@ -1,39 +1,60 @@
+// prompt user fro password
+var password = (min - 8, max -122); 
+var chars = ("");
+    var charsUppercase = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z",];
+    var charsLowercase = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "", "y", "z"];
+    var charsNums = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0"];
+    var charsSpecial = ["!", "@", '#', "$", "%", "&", "*", "[", "]"];
+   Math.random(0 - 122);
+
+   for (chars = i = 0; i < chars; i++);
+   return(password)
+
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
-var password = prompt("Please enter your Security lock password");
-var pasword =
-if (password !== "h1" && password !== "h2" && password !== "p" && password !== "div") {
-  alert("please enter a valid tag");
-} else {
-  // Creates element based on tag entered by user
-  var password = document.createElement(password);
 
-  // Adds text content to created tag
-  password.textContent = "This was made via prompts. It's a " + tagName + ".";
-  
-  // Appends tag as child of document body
-  document.body.appendChild(tag);
+function promtuser() {
+    password = (prompt="Choose password length between 8 - 122 characters");
+    if (promt(!password|| !password < 8 || !password > 122));
+    alert("Password to short choose between 8 - 122 characters Please try again.")
+    return false;
+
+    if (confirmed("do you want Uppercase Letters"));
+    chars = chars.concat(charsUppercase);
+
+    if  (confirmed("do you want Lowercase Letters"));
+    chars = chars.concat(charsLowercase);
+
+    if (confirmed("do you want Numbers Letters"));
+    chars = chars.concat(charsNums);
+
+    if (confirmed("do you want Special Characters"));
+    chars = chars.concat(charsSpecial);
+
 }
+function  generatePassword() {
+    var password = ("");
+    for (var i = 0; i < chars.length; i++) 
+    console.log("you clicked the button");
+C
+ 
+// 1. password length
+// 2. letters , numbers special charecters
+// validate input 
+// gen. password
+// display password
 
-var nextTag = confirm("Would you like to add another tag?");
 
- var password = ();
-if (password === true) {
-    var secondTagName = prompt("Please enter another  HTML Tag (ex. h1, h2, p, div):", "enter tag here");
-    if (secondTagName !== "h1" && secondTagName !== "h2" && secondTagName !== "p" && secondTagName !== "div") {
-        alert("please enter a valid tag");
-    } else {
-        var secondTag = document.createElement(secondTagName);
-        secondTag.textContent = "This is our second tag via prompts, it's a " + secondTagName + ".";
-        document.body.appendChild(secondTag);
-        var password = Math.floor(Math.random() * 5000 + 1);
-
+return("password here");
+}
+ 
         // Write password to the #password input
         function writePassword() {
             var password = generatePassword();
-            var passwordText = document.querySelector("##$nowWh!t3");
+            var passwordText = document.querySelector("#password");
 
-            passwordText.value = #$nowWh!t3;
+
+            passwordText.value = password;
 
         }
 
